@@ -1,0 +1,55 @@
+caption {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #AAAAFF;
+	color: #00000A
+}
+
+table {
+	border: 1px dotted #CCCCCC;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px dotted #CCCCCC;
+}
+
+td:first-of-type {
+	vertical-align: top;
+	text-align: center;
+}
+
+td:last-of-type {
+	text-align: center;
+}
+
+thead {
+	background-color: #F5F5F5;
+	color: #00000A
+}
+
+.evenRow {
+	color: #00000A;
+	background-color: #F5F5F5;
+}
+
+.oddRow {
+	color: #00000A;
+	background-color: #AAAAFF;
+}
+
+.price td{
+	border:0;
+	border-bottom:  medium solid #00000A;
+}
+
+.price td:first-of-type{
+	text-align: left;
+}
+
+.price th{
+	border-bottom:  medium solid #00000A;
+}
+
+#main ul {
+	list-style-image: url("../images/purplestar.gif");
+}

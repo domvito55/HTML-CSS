@@ -1,0 +1,113 @@
+* { 
+	box-sizing: border-box;
+    	margin: 0;
+}
+
+a:link {
+    color:#ffff55;
+    background-color: transparent;
+  }
+  a:visited {
+    color:#C0C0C0;
+    background-color: transparent;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+  }
+
+body{
+    font-family:sans-serif;
+    color:#C0C0C0;
+    background-color:#00000A;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div{
+    overflow: hidden;
+}
+
+h3{
+    color:#A9A9A9;
+}
+
+h4{
+    color:#A9A9A9;
+}
+
+hr{
+    border-style:solid;
+    border-color:#C0C0C0;
+    border-width:2px;
+}
+
+p {
+    margin: 1px;
+    text-indent: 4%;
+}  
+
+.map {
+    list-style-type: none;
+    margin: 0 0 2px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+    display: flex;
+    justify-content: space-around ;
+  }
+  
+ .map a {
+    color: #FFFFFF;
+    background-color: #7310E7;  
+    font: 15px Arial;
+    text-decoration: none;
+    text-align: center;
+  
+    margin: 0px 1px;
+    padding: 2px 0.02%;
+    border-top: 1px solid #F5F5F5;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #F5F5F5;
+
+}
+
+.map a li{
+  color: #FFFFFF;
+  }
+
+.reference{
+    text-indent: -4%;
+    padding-left: 4%;
+}
+
+@media (min-width: 1050px) {
+  body{
+    width: 95%;
+  }
+  .map a {
+    padding: 2px 0.02%;
+  }
+}
+
+@media (min-width: 1150px) {
+  body{
+    width: 87%;
+  }
+  .map a {
+    padding: 2px 0.02%;
+  }
+}
+
+@media (min-width: 1250px) {
+  body{
+    width: 82%;
+  }
+  .map a {
+    padding: 2px 0.5%;
+  }
+}
+

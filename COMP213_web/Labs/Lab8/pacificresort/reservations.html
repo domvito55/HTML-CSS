@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Pacific Trail Resort::Reservations</title>
+        <link rel="stylesheet" href="./pacific.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Pacific Trail Resort</h1>
+            </header>
+            <nav>
+                    <a href="index.html">Home</a>&nbsp;&nbsp;
+                    <a href="yurts.html">Yurts</a>&nbsp;&nbsp;
+                    <a href="activities.html">Activities</a>&nbsp;&nbsp;
+                    <a href="reservations.html">Reservation</a>
+            </nav>
+            <main>
+                <h2>Reservations at Pacific Trails</h2>
+                <h3>Contact Us Today!</h3>
+                <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+                    <label for="myFName">First Name:</label>
+                    <input type="text" id="myFName" name="myFName" tabindex="1">
+                    <label for="myLName">Last Name:</label>
+                    <input type="text" id="myLName" name="myLFName" tabindex="3">
+                    <label for="myEmail">Email:</label>
+                    <input type="text" id="myEmail" name="myEmail" size="35" tabindex="5">
+                    <label for="myphone">Phone Number:</label>
+                    <input type="text" id="myphone" name="myphone" maxlength="12" tabindex="7">
+                    <label for="myComments">Comments:</label>
+                    <textarea id="myComments" name="myComments" rows="2" cols="30" tabindex="9"></textarea>
+                    <input type="submit" value="submit" tabindex="11">
+                </form>
+                <img src="resort.jfif" alt="Resort Image" style="float:right";>
+                <a href="https://resortsofontario.com/">To see other resorts in Ontario</a>
+                <div id="contact">
+                    <span class="resort">Pacific Trails Resort</span><br>
+                    12010 Pacific Trails Road<br>
+                    Zephyr, CA 95555<br>
+                    888-555-5555<br>
+                </div>
+                <br>
+            </main>
+            <footer>
+                Copyright &copy;2012 &nbsp;&nbsp;Pacific Trails Resort
+                <br>
+                <a href="mailto:mferre39@my.centennialcollege.ca">Matheus Teixeira</a>
+            </footer>
+        </div>
+    </body>
+</html>

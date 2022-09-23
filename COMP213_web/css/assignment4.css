@@ -1,0 +1,53 @@
+#main {
+    border:4px double #d4df38;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+form{
+    background-color: #454546;
+    border: none;
+    color:white;
+    padding: 1px;
+    width:100%;
+}
+
+form h3{
+    color:white;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+form h4{
+    color:white;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+fieldset{
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+}
+
+table{
+    width:100%;
+}
+
+.firstColumn{
+    width:120px;
+}
+
+
+.button {
+    text-align: center;
+    background-color: #d4df38;
+    color:#00000A;
+    font: 32px Arial;
+    cursor:pointer;
+    margin: 15px 5px;
+    padding: 5px 15px;
+    position: relative;
+  }
+

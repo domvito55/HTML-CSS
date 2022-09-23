@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Student Name: Matheus Teixeira - Student ID: 301236904-->
+    <head>
+        <meta charset="utf-8">
+        <title>Continuing Education Evaluation</title>
+        <link rel="stylesheet" href="../css/mystyle.css">
+        <link rel="stylesheet" href="../css/assignment4.css">
+        <link rel="shortcut icon" href="../images/MT.jpg" />
+    </head>
+    <body>
+        <header>
+            <a title="Centennial Logo" href="https://www.centennialcollege.ca/">
+                <img style="width:100%;" alt="Banner" src="../images/centennialcollege_logo_horizontal_rgb.jpg">
+            </a>
+            <hr>
+            <h3 style="text-align: center;">Continuing Education Evaluation</h3>
+            <h4 style="text-align: center;">Assignment 4</h4>
+            <hr style="border-style:solid;border-color:silver;border-width:2px;">
+            <nav>
+                <ul class="map">
+                    <a href="../index.html" style="padding: 0.7em 5px;"><li>Home</li></a>
+                    <a href="../Labs/labs.html" style="padding: 0.7em 6px;"><li>Labs</li></a>
+                    <a href="../IndividualProject/index.html" style="font-weight: bold;"><li>Final Project: Real Estate Agent<br>(Complete Responsive Website)</li></a>
+                    <a href="../Assignment2/assignment2.html"><li>Assignment 2: Protected area<br>(Simple page)</li></a>
+                    <a href="../Assignment3/Assignment3.html"><li>Assignment 3: Product Page<br>(Table & Map)</li></a>
+                    <a href="./assignment4.html"><li>Assignment 4: Continuing Education<br>(Form)</li></a>
+                </ul>
+            </nav>
+        </header>
+        <div id="main">
+        <form action="mailto:ce@centennialcollege.ca" method="post">
+                <h3>Centennial College</h3>
+                <h4>Continuing Education Course/Instructor Evaluaiton</h4>
+                <p>Please read each statement carefully and consider each one individually.</p>
+                <fieldset>
+                    <legend>Basic Information</legend>
+                    <table>
+                        <tr>
+                            <td class="firstColumn">
+                                <label for="txtCourseName">Course Name: </label>
+                            </td>
+                            <td>
+                                <input name="txtCourseName" id="txtCourseName" tabindex="1"
+                                type="text" style="width: 100%;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">
+                                <label for="lstSemester">Semester: </label>
+                            </td>
+                            <td>
+                                <select id="lstSemester" name="lstSemester" size="1" tabindex="3">
+                                    <option value="Fall">Fall</option>
+                                    <option value="Winter">Winter</option>
+                                    <option value="Summer">Summer</option>
+                                </select>
+                                <label for="txtYear">Year: </label>
+                                <input name="txtYear" id="txtYear" size="4" maxlength="4" tabindex="5" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">
+                                <label for="txtInstructor">Instructor Name: </label>
+                            </td>
+                            <td>
+                                <input name="txtInstructor" id="txtInstructor" tabindex="7"
+                                type="text" style="width: 100%;">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Instructor</legend>
+                    <p>
+                        How would you rate the instructor:
+                    </p>
+                    <ol>
+                        <li>
+                            <strong>Knowledge</strong> of subject?<br/>
+                            <input name="optKnowledge" type="radio" value="Excel" tabindex="9"> Excellent
+                            <input name="optKnowledge" type="radio" value="Good" tabindex="9"> Good
+                            <input name="optKnowledge" type="radio" value="Fair" tabindex="9"> Fair
+                            <input name="optKnowledge" type="radio" value="Bad" tabindex="9"> Not Satisfactory
+                        </li>
+                        <li>
+                            <strong>Helpfulness</strong>?<br/>
+                            <input name="optHelpfulness" type="radio" value="Excel" tabindex="11"> Excellent
+                            <input name="optHelpfulness" type="radio" value="Good" tabindex="11"> Good
+                            <input name="optHelpfulness" type="radio" value="Fair" tabindex="11"> Fair
+                            <input name="optHelpfulness" type="radio" value="Bad" tabindex="11"> Not Satisfactory
+                        </li>
+                        <li>
+                            <strong>Cortesy and respect</strong> for all students?<br/>
+                            <input name="optRespect" type="radio" value="Excel" tabindex="13"> Excellent
+                            <input name="optRespect" type="radio" value="Good" tabindex="13"> Good
+                            <input name="optRespect" type="radio" value="Fair" tabindex="13"> Fair
+                            <input name="optRespect" type="radio" value="Bad" tabindex="13"> Not Satisfactory
+                        </li>
+                        <li>
+                            <strong>Communication</strong> skills?<br/>
+                            <input name="optCommunication" type="radio" value="Excel" tabindex="15"> Excellent
+                            <input name="optCommunication" type="radio" value="Good" tabindex="15"> Good
+                            <input name="optCommunication" type="radio" value="Fair" tabindex="15"> Fair
+                            <input name="optCommunication" type="radio" value="Bad" tabindex="15"> Not Satisfactory
+                        </li>
+                        <li>
+                            Overall <strong>performance</strong>?<br/>
+                            <input name="optPerformance" type="radio" value="Excel" tabindex="17"> Excellent
+                            <input name="optPerformance" type="radio" value="Good" tabindex="17"> Good
+                            <input name="optPerformance" type="radio" value="Fair" tabindex="17"> Fair
+                            <input name="optPerformance" type="radio" value="Bad" tabindex="17"> Not Satisfactory
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>Course</legend>
+                    <ol start="6">
+                        <li>
+                            How would you rate the <strong>course materials</strong>?<br/>
+                            <input name="optMaterials" type="radio" value="Excel" tabindex="19"> Excellent
+                            <input name="optMaterials" type="radio" value="Good" tabindex="19"> Good
+                            <input name="optMaterials" type="radio" value="Fair" tabindex="19"> Fair
+                            <input name="optMaterials" type="radio" value="Bad" tabindex="19"> Not Satisfactory
+                        </li>
+                        <li>
+                            How much this course meet your <strong>expectations</strong>?<br/>
+                            <input name="optExpectations" type="radio" value="Excel" tabindex="21"> Excellent
+                            <input name="optExpectations" type="radio" value="Good" tabindex="21"> Good
+                            <input name="optExpectations" type="radio" value="Fair" tabindex="21"> Fair
+                            <input name="optExpectations" type="radio" value="Bad" tabindex="21"> Not Satisfactory
+                        </li>
+                        <li>
+                            How would you rate this course <strong>overall</strong>?<br/>
+                            <input name="optOverwallCourse" type="radio" value="Excel" tabindex="23"> Excellent
+                            <input name="optOverwallCourse" type="radio" value="Good" tabindex="23"> Good
+                            <input name="optOverwallCourse" type="radio" value="Fair" tabindex="23"> Fair
+                            <input name="optOverwallCourse" type="radio" value="Bad" tabindex="23"> Not Satisfactory
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>General Inforation</legend>
+                    <ol start="9">
+                        <li>
+                            Was the <strong>course outline</strong> reviewed/explained at the beginning of the course?<br/>
+                            <input name="optOutline" type="radio" value="Yes" tabindex="25"> Yes
+                            <input name="optOutline" type="radio" value="No" tabindex="25"> No
+                            <input name="optOutline" type="radio" value="NotSure" tabindex="25"> Not Sure
+                        </li>
+                        <li>
+                            Would you <strong>recommend</strong> this course to a friend with the same interests?<br/>
+                            <input name="optRecommend" type="radio" value="Yes" tabindex="27"> Yes
+                            <input name="optRecommend" type="radio" value="No" tabindex="27"> No
+                            <input name="optRecommend" type="radio" value="NotSure" tabindex="27"> Not Sure
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>Any other comments</legend>
+                    <ol start="11">
+                        <li>
+                            <label for="txtBestThing">What is the <strong>best thing</strong> about this course</label><br/>
+                            <textarea id="txtBestThing" name="txtBestThing" rows="3" tabindex="29"
+                            placeholder="Tell us what you liked the most..."
+                            style="width: 100%;"></textarea>
+                        </li>
+                        <li>
+                            <label for="txtImprove">How could we <strong>improve</strong> this course?</label><br/>
+                            <textarea id="txtImprove" name="txtImprove" rows="3" tabindex="31"
+                            placeholder="Tell us how do you think we can improve..."
+                            style="width: 100%;"></textarea>
+                        </li>
+                        <li>
+                            <label for="txtOther"><strong>Other</strong>?</label><br/>
+                            <textarea id="txtOther" name="txtOther" rows="5" tabindex="33"
+                            placeholder="There is any other thing that you want to let us know?"
+                            style="width: 100%;"></textarea>
+                        </li>
+                    </ol>
+                </fieldset>
+                <p style="text-align:center; text-indent:0; margin-top:15px;">
+                    <em>Thank you! We pay attention to your feedback!</em>
+                    <br/>
+                    Web: <a href="https://www.centennialcollege.ca/about-centennial/schools/part-time-learning/">
+                        https://www.centennialcollege.ca/about-centennial/schools/part-time-learning/</a>
+                    <br/>
+                    Email: <a href="mailto:ce@centennialcollege.ca">ce@centennialcollege.ca</a>                    
+                    <br/>
+                    <input name="btnSubmit" tabindex="35" type="submit" value="Submit" class="button">
+                    <input name="btnReset" tabindex="37" type="reset" value="Clear Form" class="button">
+                </p>
+            </form>
+        </div>
+        <div>
+            <hr>
+            <small>
+                Disclaimer: The images may have suffered some alterations like resizing and inversion. No
+                permission was asked to use the Centennial College Logo. The images are being used
+                under fair use for academic purposes.<br/>
+                &copy;&nbsp;&nbsp;&nbsp;Copyright Matheus Teixeira, 301236904, Basics of Web Design,
+                Winter 2022, Mar 29, 2022, Assignment 4: Continuing Education Evaluation.
+            </small>
+            <hr>
+        </div>
+    </body>
+</html>

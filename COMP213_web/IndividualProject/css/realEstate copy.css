@@ -1,0 +1,77 @@
+/*
+* { 
+	box-sizing: border-box;
+    	margin: 0;
+}
+
+body{
+  font-family: Arial, Verdana, sans-serif;
+  background-color:#ccffee;
+}
+
+#wrapper {
+	background-color: #ffffff;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header {
+	background-color: #33ffbb;
+	color: #cc0055;
+	background-image: url(../images/MT2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+  text-align: center;
+}
+
+/* Styles to configure navigation links as horizontal areas */
+nav ul { 
+	list-style-type: none;
+      padding-left: 0; 
+	border-top: 1px solid #EEEEEE;
+}
+nav li { 
+	border-bottom: 1px solid #EEEEEE;  
+      text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+nav a { 
+	text-decoration: none;
+		font-weight: bold;
+}
+nav a:link {
+	color: #DC260C;
+}
+nav a:hover {
+	color: #FF3737;
+}
+nav a:visited {
+	color:#FFFFFF;
+}
+
+
+@media (min-width: 1024px) {
+  #wrapper { 
+    width: 80%; 
+    margin: auto; 
+    max-width: 1200px; 
+  }
+
+  nav ul { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+  }
+  
+  nav    {
+    background-color: #000;
+    position:sticky; 
+  }
+ 
+} 
+  
+
+
+
